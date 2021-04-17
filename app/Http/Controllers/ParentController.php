@@ -24,7 +24,6 @@ class ParentController extends Controller
     /**
      * list all parents from different sources
      * @param Request $request
-     * @param ParentService $parentService
      * @return \Illuminate\Http\JsonResponse
      */
     public function index(Request $request)
