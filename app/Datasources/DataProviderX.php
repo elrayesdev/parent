@@ -24,7 +24,7 @@ class DataProviderX extends AbstractDataProvider
      * @var array
      */
     protected $statusCodes = [
-        'authorised' => 1,
+        'authorized' => 1,
         'decline' => 2,
         'refunded' => 3
     ];
